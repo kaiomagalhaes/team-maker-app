@@ -1,0 +1,31 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "plugins": ["react"],
+  "rules": {
+    "react/jsx-filename-extension": 0,
+    "no-debugger": 1,
+    "linebreak-style": 0,
+    "import/first": 2,
+    "no-undef": 0,
+    "react/react-in-jsx-scope": 0
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["components", "./src/components"],
+          ["connected-components", "./src/connected-components"],
+          ["lib", "./src/lib"],
+          ["pages", "./src/pages"],
+          ["theme", "./src/theme"],
+          ["config", "./config"]
+        ]
+      }
+    }
+  }
+}

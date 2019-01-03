@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page renders and matches the snapshot 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "black": "#000",
+      "maxWidth": "1000px",
+      "white": "#fff",
+    }
+  }
+>
+  <StyledPage>
+    <Meta />
+    <Header />
+    <StyledPage__Inner />
+  </StyledPage>
+</ThemeProvider>
+`;

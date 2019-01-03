@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Meta renders and matches the snapshot 1`] = `
+<SideEffect(Head)>
+  <meta
+    content="width=device-width, initial-scale=1"
+    name="viewport"
+  />
+  <meta
+    charSet="utf-8"
+  />
+  <link
+    href="/static/favicon.png"
+    rel="shortcut icon"
+  />
+  <link
+    href="/static/nprogress.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <title>
+    APP NAME
+  </title>
+</SideEffect(Head)>
+`;

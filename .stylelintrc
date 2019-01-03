@@ -1,0 +1,19 @@
+{
+  "processors": ["stylelint-processor-styled-components"],
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-config-styled-components"
+  ],
+  "plugins": [
+    "stylelint-order"
+  ],
+  "rules": {
+    "selector-max-id": 0,
+    "color-named": null,
+    "order/properties-alphabetical-order": true,
+    "order/properties-order": [
+      ["composes"],
+      { "unspecified": "bottomAlphabetical" },
+    ],
+  }
+}
