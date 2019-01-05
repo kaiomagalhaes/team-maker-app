@@ -3,6 +3,8 @@ import theme from 'theme';
 
 /* eslint-disable */
 injectGlobal`
+  @import url('../../assets/stylesheets/flexboxgrid.min.css');
+
   html {
     box-sizing: border-box;
     font-size: 10px;
